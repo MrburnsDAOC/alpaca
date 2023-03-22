@@ -1,0 +1,23 @@
+{
+  "name": "alpaca",
+  "version": "1.0.0",
+  "description": "A client, the owner of an alpaca farm, commissioned you to design and develop a website to promote their farm online.",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch ./css/scss/main.scss ./css/main.css --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrburnsDAOC/alpaca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrburnsDAOC/alpaca/issues"
+  },
+  "homepage": "https://github.com/MrburnsDAOC/alpaca#readme",
+  "dependencies": {
+    "sass": "^1.59.3"
+  }
+}
