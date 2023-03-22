@@ -3,4 +3,10 @@
 main {
   position: relative;
   top: 100px;
+  background-color: lightgray;
+}
+main form {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
 }
