@@ -3,4 +3,30 @@
 
 main {
   background-color: lightgray;
+  position: relative;
+  top: 100px;
+  padding: 20px;
+
+  .products {
+    border: 4px solid black;
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+      border: 2px solid red;
+      margin: 4px;
+      height: 400px;
+      width: 400px;
+
+      display: inherit;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: 200px;
+        max-width: 250px;
+      }
+    }
+  }
 }
