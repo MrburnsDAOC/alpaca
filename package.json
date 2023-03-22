@@ -4,9 +4,12 @@
   "description": "A client, the owner of an alpaca farm, commissioned you to design and develop a website to promote their farm online.",
   "main": "index.js",
   "scripts": {
-    "contact": "sass --watch ./css/scss/contact.scss ./css/contact.css --no-source-map",
+    "farm": "sass --watch ./css/scss/farm.scss ./css/farm.css --no-source-map",
+    "alpacas": "sass --watch ./css/scss/alpacas.scss ./css/alpacas.css --no-source-map",
+    "tours": "sass --watch ./css/scss/tours.scss ./css/tours.css --no-source-map",
+    "stay": "sass --watch ./css/scss/stay.scss ./css/stay.css --no-source-map",
     "shop": "sass --watch ./css/scss/shop.scss ./css/shop.css --no-source-map",
-    "farm": "sass --watch ./css/scss/farm.scss ./css/farm.css --no-source-map"
+    "contact": "sass --watch ./css/scss/contact.scss ./css/contact.css --no-source-map"
   },
   "repository": {
     "type": "git",
