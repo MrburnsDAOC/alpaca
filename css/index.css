@@ -1,2 +1,34 @@
 @import url(./main.css);
 @import url(./header.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MAIN */
+
+main h2 {
+  margin: 1rem 0 0.7rem;
+}
+
+/* MAIN: Landing IMG */
+.landing-img {
+  width: 100vw;
+  height: 70vh;
+  background-image: url(/images/placeholder/dummy_1920x1080_ffffff_grey_main-bild.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* MAIN: About */
+.about {
+  text-align: center;
+}
