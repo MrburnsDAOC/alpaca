@@ -21,3 +21,50 @@ main h2 {
 .about {
   text-align: center;
 }
+
+/* MAIN: The Farm */
+.farm {
+  text-align: center;
+}
+
+.farm div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.farm img {
+  width: 500px;
+  padding: 1rem;
+}
+
+/* MAIN: The Alpacas */
+.alpacas {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* container */
+.alpacas-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*card*/
+.alpaca {
+  margin: 1.5rem;
+}
+.alpaca img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.alpaca p {
+  margin: 0.7rem 0 3rem;
+}
