@@ -1,2 +1,6 @@
 @import url(./main.css);
 @import url(./header.css);
+main {
+  position: relative;
+  top: 100px;
+}
