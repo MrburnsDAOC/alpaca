@@ -4,4 +4,17 @@
 main {
   position: relative;
   top: 100px;
+  background-color: lightgray;
+
+  form {
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    input,
+    textarea {
+      outline-color: red;
+    }
+  }
 }
