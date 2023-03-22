@@ -30,10 +30,11 @@ main h2 {
 .farm div {
   text-align: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
+
 .farm img {
   width: 500px;
   padding: 1rem;
