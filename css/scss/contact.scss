@@ -11,5 +11,10 @@ main {
 
     display: flex;
     flex-direction: column;
+
+    input,
+    textarea {
+      outline-color: red;
+    }
   }
 }
