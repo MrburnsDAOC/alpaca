@@ -5,4 +5,19 @@ main {
   background-color: lightgray;
   position: relative;
   top: 100px;
+  padding: 20px;
+
+  .farm {
+    div {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    img {
+      width: 500px;
+      padding: 1rem;
+    }
+  }
 }

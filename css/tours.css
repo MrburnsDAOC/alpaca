@@ -4,4 +4,40 @@ main {
   background-color: lightgray;
   position: relative;
   top: 100px;
+  padding: 20px;
+}
+main .tours .tours-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .tours .tours-container .tours-card {
+  margin: 1rem 2rem;
+  background-color: lightgrey;
+  border-radius: 0.3rem;
+  min-width: 300px;
+  width: 300px;
+  border: 2px solid white;
+}
+main .tours .tours-container .tours-card h5 {
+  font-size: 1rem;
+  margin: 1rem 1rem 0.7rem;
+}
+main .tours .tours-container .tours-card p,
+main .tours .tours-container .tours-card button,
+main .tours .tours-container .tours-card ul {
+  margin: 0.7rem 1rem;
+}
+main .tours .tours-container .tours-card ul li {
+  list-style: circle;
+  list-style-position: inside;
+}
+main .tours .tours-container .tours-card button {
+  width: 80%;
+  padding: 0.7rem;
+  background-color: white;
+  border: none;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }

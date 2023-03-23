@@ -5,4 +5,49 @@ main {
   background-color: lightgray;
   position: relative;
   top: 100px;
+  padding: 20px;
+
+  .tours {
+    .tours-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .tours-card {
+        margin: 1rem 2rem;
+        background-color: lightgrey;
+        border-radius: 0.3rem;
+        min-width: 300px;
+        width: 300px;
+        border: 2px solid white;
+
+        h5 {
+          font-size: 1rem;
+          margin: 1rem 1rem 0.7rem;
+        }
+
+        p,
+        button,
+        ul {
+          margin: 0.7rem 1rem;
+        }
+
+        ul {
+          li {
+            list-style: circle;
+            list-style-position: inside;
+          }
+        }
+        button {
+          width: 80%;
+          padding: 0.7rem;
+          background-color: white;
+          border: none;
+          border-radius: 0.3rem;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+      }
+    }
+  }
 }
