@@ -5,10 +5,11 @@
 .landing-img {
   width: 100vw;
   height: 70vh;
-  background-image: url(/images/placeholder/dummy_1920x1080_ffffff_grey_main-bild.png);
+  /* background-image: url(/images/placeholder/dummy_1920x1080_ffffff_grey_main-bild.png); */
+  background-image: url(/images/placeholder/alpaca-5405469_960_720.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
 }
 
 /* MAIN: The Farm */

@@ -21,12 +21,11 @@ header {
 .logo h1 {
   margin-left: 1rem;
   padding: 1rem;
-  background: linear-gradient(
-    90deg,
-    var(--primary) 0%,
-    var(--secondary) 50%,
-    var(--tertiary) 100%
-  );
+}
+
+.logo img {
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
 
 /* HEADER: Nav-Bar */
