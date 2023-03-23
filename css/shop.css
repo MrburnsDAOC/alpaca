@@ -6,22 +6,40 @@ main {
   top: 100px;
   padding: 20px;
 }
+main h2 {
+  margin-bottom: 20px;
+}
 main .products {
-  border: 4px solid black;
   display: flex;
   flex-wrap: wrap;
 }
 main .products div {
-  border: 2px solid red;
+  border: 2px solid white;
   margin: 4px;
   height: 400px;
   width: 400px;
-  display: inherit;
+  padding: 10px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+main .products div h3 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+main .products div p {
+  text-align: center;
+}
+main .products div p span:nth-child(1) {
+  text-decoration: line-through;
+}
+main .products div p span:nth-child(2) {
+  font-weight: bold;
+}
 main .products div img {
+  margin: 20px 0;
   height: 200px;
   max-width: 250px;
 }

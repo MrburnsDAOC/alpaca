@@ -7,23 +7,45 @@ main {
   top: 100px;
   padding: 20px;
 
+  h2 {
+    margin-bottom: 20px;
+  }
+
   .products {
-    border: 4px solid black;
     display: flex;
     flex-wrap: wrap;
 
     div {
-      border: 2px solid red;
+      border: 2px solid white;
       margin: 4px;
       height: 400px;
       width: 400px;
+      padding: 10px;
 
-      display: inherit;
+      display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
 
+      h3 {
+        font-size: 1.5rem;
+        text-decoration: underline;
+        font-style: italic;
+      }
+
+      p {
+        text-align: center;
+
+        span:nth-child(1) {
+          text-decoration: line-through;
+        }
+        span:nth-child(2) {
+          font-weight: bold;
+        }
+      }
+
       img {
+        margin: 20px 0;
         height: 200px;
         max-width: 250px;
       }
