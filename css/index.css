@@ -1,12 +1,6 @@
 @import url(./main.css);
 @import url(./header.css);
 
-/* MAIN */
-
-main h2 {
-  margin: 1rem 0 0.7rem;
-}
-
 /* MAIN: Landing IMG */
 .landing-img {
   width: 100vw;
@@ -49,6 +43,7 @@ main h2 {
 
 /* container */
 .alpacas-container {
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -86,11 +81,6 @@ main h2 {
   width: 300px;
 }
 
-.tours-card h5 {
-  font-size: 1rem;
-  margin: 1rem 1rem 0.7rem;
-}
-
 .tours-card p,
 .tours-card button,
 .tours-card ul {
@@ -110,4 +100,44 @@ main h2 {
   border-radius: 0.3rem;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+/* MAIN: Accomodation */
+/* container */
+.accomodation-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* card */
+.accomodation-card {
+  /* border: 2px solid red; */
+  width: 30%;
+}
+
+.accomodation-card img,
+.accomodation-card p,
+.accomodation-card h5 {
+  width: 100%;
+  margin: 0.7rem 0;
+}
+
+.accomodation-card img {
+  height: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.accomodation-card h5,
+.accomodation h4,
+.accomodation button {
+  text-align: center;
+}
+
+.accomodation button {
+  width: 30%;
+  background-color: lightgray;
+  display: block;
+  margin: 2rem auto;
 }
