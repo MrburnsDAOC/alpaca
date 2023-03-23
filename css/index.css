@@ -11,18 +11,8 @@
   background-position: center;
 }
 
-/* Center */
-.about,
-.farm,
-.alpacas,
-.tours {
-  text-align: center;
-}
-
 /* MAIN: The Farm */
-
 .farm div {
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +102,6 @@
 
 /* card */
 .accomodation-card {
-  /* border: 2px solid red; */
   width: 30%;
 }
 
@@ -140,4 +129,35 @@
   background-color: lightgray;
   display: block;
   margin: 2rem auto;
+}
+
+/* MAIN: The Farm Shop */
+.farm-shop-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.farm-shop-card {
+  width: 22%;
+  margin: 0.3rem;
+}
+
+.farm-shop-card img,
+.farm-shop-card h5,
+.farm-shop-card p {
+  width: 100%;
+  margin: 0.7rem 0;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: lightgray;
+}
+footer p {
+  text-align: center;
+  padding: 2rem 0;
+  font-weight: 900;
+  font-size: 1rem;
 }
