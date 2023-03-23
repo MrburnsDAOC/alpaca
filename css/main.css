@@ -8,11 +8,20 @@ body {
   font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.3rem;
+
+  /* COLORS */
+  --f-color: #0c0f0a;
+  --primary: #ff206e;
+  --secondary: #fbff12;
+  --tertiary: #41ead4;
+  --bg-color: #fff;
 }
 
 main {
   width: 90%;
   margin: 0 auto;
+  color: var(--f-color);
+  background: var(--bg-color);
 }
 
 h2 {
@@ -45,4 +54,13 @@ button {
   text-transform: uppercase;
   padding: 0.7rem;
   font-weight: 900;
+}
+button:hover {
+  color: var(--f-color);
+  background: linear-gradient(
+    90deg,
+    var(--primary) 0%,
+    var(--secondary) 50%,
+    var(--tertiary) 100%
+  );
 }

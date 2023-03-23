@@ -65,10 +65,16 @@
 /* cards */
 .tours-card {
   margin: 1rem 2rem;
-  background-color: lightgrey;
+  border: 3px solid var(--f-color);
+  background-color: var(--bg-color);
   border-radius: 0.3rem;
   min-width: 300px;
   width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tours-card p,
@@ -85,11 +91,16 @@
 .tours-card button {
   width: 80%;
   padding: 0.7rem;
-  background-color: white;
+  background-color: var(--f-color);
+  color: var(--bg-color);
   border: none;
   border-radius: 0.3rem;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.tours-card button:hover {
+  color: var(--f-color);
 }
 
 /* MAIN: Accomodation */
@@ -124,11 +135,19 @@
   text-align: center;
 }
 
-.accomodation button {
+/* wide buttons */
+.accomodation button,
+.contact-us button {
   width: 30%;
-  background-color: lightgray;
+  background-color: var(--f-color);
+  color: var(--bg-color);
   display: block;
   margin: 2rem auto;
+}
+
+.accomodation button:hover,
+.contact-us button:hover {
+  color: var(--f-color);
 }
 
 /* MAIN: The Farm Shop */
@@ -151,10 +170,12 @@
 }
 
 /* FOOTER */
-
 footer {
-  background-color: lightgray;
+  background: var(--f-color);
+  color: var(--bg-color);
+  margin-top: 3rem;
 }
+
 footer p {
   text-align: center;
   padding: 2rem 0;

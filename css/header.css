@@ -20,6 +20,13 @@ header {
 
 .logo h1 {
   margin-left: 1rem;
+  padding: 1rem;
+  background: linear-gradient(
+    90deg,
+    var(--primary) 0%,
+    var(--secondary) 50%,
+    var(--tertiary) 100%
+  );
 }
 
 /* HEADER: Nav-Bar */
@@ -37,4 +44,10 @@ nav ul li a {
   color: black;
   text-decoration: none;
   margin: 0 0.7rem;
+}
+
+nav ul li a:hover {
+  text-shadow: 10px 10px 15px var(--primary), 0px -10px 15px var(--secondary),
+    -10px 10px 15px var(--tertiary);
+  color: var(--primary);
 }
