@@ -4,4 +4,34 @@ main {
   background-color: lightgray;
   position: relative;
   top: 100px;
+  padding: 20px;
+}
+main .accomodation button {
+  width: 30%;
+  background-color: white;
+  display: block;
+  margin: 2rem auto;
+}
+main .accomodation .accomodation-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+main .accomodation .accomodation-container .accomodation-card {
+  /* border: 2px solid red; */
+  width: 30%;
+}
+main .accomodation .accomodation-container .accomodation-card img,
+main .accomodation .accomodation-container .accomodation-card p,
+main .accomodation .accomodation-container .accomodation-card h5 {
+  width: 100%;
+  margin: 0.7rem 0;
+}
+main .accomodation .accomodation-container .accomodation-card img {
+  height: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+main .accomodation .accomodation-container .accomodation-card h5 {
+  text-align: center;
 }
