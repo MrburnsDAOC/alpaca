@@ -29,6 +29,10 @@ header {
 }
 
 /* HEADER: Nav-Bar */
+nav {
+  display: none;
+}
+
 nav ul {
   display: flex;
 }
@@ -45,8 +49,52 @@ nav ul li a {
   margin: 0 0.7rem;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+#menu-btn ul li a {
   text-shadow: 10px 10px 15px var(--primary), 0px -10px 15px var(--secondary),
     -10px 10px 15px var(--tertiary);
   color: var(--primary);
+}
+
+#menu-btn ul {
+  display: none;
+  list-style: none;
+  background-color: lightgray;
+  padding: 1rem;
+  text-align: left;
+}
+
+#menu-btn ul li a {
+  color: var(--f-color);
+  text-decoration: none;
+}
+
+.icons i {
+  font-size: 2rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 0.4rem;
+  margin-right: 3rem;
+  line-height: 45px;
+  background-color: var(--bg-color);
+}
+
+.icons i:hover {
+  background-color: var(--highlight);
+}
+
+#menu-btn:hover ul {
+  display: block;
+  position: absolute;
+}
+
+@media screen and (min-width: 992px) {
+  #menu-btn {
+    display: none;
+  }
+  nav {
+    display: block;
+  }
 }
