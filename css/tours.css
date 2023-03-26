@@ -13,15 +13,15 @@ main .tours .tours-container {
 }
 main .tours .tours-container .tours-card {
   margin: 1rem 2rem;
-  background-color: lightgrey;
+  border: 3px solid var(--f-color);
+  background-color: var(--bg-color);
   border-radius: 0.3rem;
   min-width: 300px;
   width: 300px;
-  border: 2px solid white;
-}
-main .tours .tours-container .tours-card h5 {
-  font-size: 1rem;
-  margin: 1rem 1rem 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 main .tours .tours-container .tours-card p,
 main .tours .tours-container .tours-card button,
@@ -35,9 +35,13 @@ main .tours .tours-container .tours-card ul li {
 main .tours .tours-container .tours-card button {
   width: 80%;
   padding: 0.7rem;
-  background-color: white;
+  background-color: var(--f-color);
+  color: var(--bg-color);
   border: none;
   border-radius: 0.3rem;
   text-transform: uppercase;
   font-weight: bold;
+}
+main .tours .tours-container .tours-card button :hover {
+  color: var(--f-color);
 }
