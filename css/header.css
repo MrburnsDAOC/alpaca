@@ -6,7 +6,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   padding: 0.5rem 1.5rem;
   background-color: white;
   z-index: 1;
@@ -101,6 +101,8 @@ nav ul li a:hover,
     display: none;
   }
   nav {
-    display: block;
+    display: flex;
+    position: fixed;
+    right: 0;
   }
 }
