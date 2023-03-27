@@ -26,6 +26,12 @@ header {
 .logo img {
   filter: none;
   -webkit-filter: grayscale(0);
+
+  transition: transform 0.7s linear;
+}
+
+.logo img:hover {
+  transform: rotateY(180deg);
 }
 
 /* HEADER: Nav-Bar */
