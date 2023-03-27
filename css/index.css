@@ -146,19 +146,21 @@
   margin: 2rem auto;
 }
 
-.accomodation button a,
-.contact-us button a {
+.accomodation a,
+.contact-us a {
   text-decoration: none;
 }
 
 .accomodation button a:visited,
 .contact-us button a:visited {
   color: var(--bg-color);
+  text-decoration: none;
 }
 
 .accomodation button:hover,
 .contact-us button:hover {
   color: var(--f-color);
+  cursor: pointer;
 }
 
 /* MAIN: The Farm Shop */
@@ -178,12 +180,6 @@
 .farm-shop-card p {
   width: 100%;
   margin: 0.7rem 0;
-}
-
-/* MAIN: Contact Us */
-.contact-us button:hover,
-.accomodation button:hover {
-  cursor: pointer;
 }
 
 /* FOOTER */
