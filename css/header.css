@@ -73,6 +73,7 @@ nav ul li a:hover,
 #menu-btn ul li a {
   color: var(--f-color);
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .icons i {
