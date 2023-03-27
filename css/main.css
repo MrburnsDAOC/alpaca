@@ -8,6 +8,7 @@ body {
   font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.3rem;
+  min-width: 550px;
 
   /* COLORS */
   --f-color: #0c0f0a;
@@ -66,6 +67,7 @@ button {
   padding: 0.7rem;
   font-weight: 900;
 }
+
 button:hover {
   color: var(--f-color);
   background: linear-gradient(
@@ -74,4 +76,8 @@ button:hover {
     var(--secondary) 50%,
     var(--tertiary) 100%
   );
+}
+
+a:hover {
+  text-decoration: none;
 }
